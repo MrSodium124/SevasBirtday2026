@@ -3,3 +3,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px; /* крупный читаемый шрифт */
+    padding: 10px;
+  }
+  .container {
+    width: 100%;
+    display: block; /* превращаем колонки в один вертикальный поток */
+  }
+}
